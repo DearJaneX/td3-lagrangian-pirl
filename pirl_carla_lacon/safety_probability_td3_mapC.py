@@ -12,9 +12,7 @@ from TD3_PIRL_torch import TD3PIRLagent, agentOptions, pinnOptions
 from rl_env.continuous_carla_env import ContinuousCarEnv
 from training_td3_pirl import Env, convection_model, diffusion_model, sample_for_pinn, map_c_before_corner
 
-###########################################################
 # Settings
-###########################################################
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--log_dir', type=str, default="logs/MapC/TD3_Cont_Lagrangian_04181330")
@@ -69,8 +67,6 @@ def contour_plot(x, y, z, key=None, filename=None, use_lagrangian=False):
     
     plt.show()
     
-
-###############################################################################
 if __name__ == '__main__':
     """
     carla: 
