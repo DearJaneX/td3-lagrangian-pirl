@@ -15,9 +15,9 @@ td3-lagrangian-pirl
 
 1. pirl_carla: TD3-PIRL safe-drifting on MapC
 
-2. pirl_carla_la: TD3-Lagrangian-PIRL safe-drifting 
+2. pirl_carla_la: TD3-Lagrangian-PIRL safe-drifting on MapC 
 
-3. pirl_carla_lacon: TD3-Lagrangian-PIRL safe-drifting (full continuous-action)
+3. pirl_carla_lacon: TD3-Lagrangian-PIRL safe-drifting on MapC (full continuous-action)
 
 4. pirl_carla_town2: TD3-PIRL high-speed turning on Town2
 
